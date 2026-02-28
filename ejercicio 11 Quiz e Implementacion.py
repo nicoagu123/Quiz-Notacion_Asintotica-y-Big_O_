@@ -1,0 +1,26 @@
+#Quiz Notacion asintotica
+#1.Respuesta = Falso
+#2.Respuesta = Verdadero
+#3.Respuesta = Falso
+
+#Parte 2 : Seleccion Multiple (Teoria y conceptos)Selecciona la respuesta correcta
+#4.Respuesta = O(n^2)
+#5.Respuesta = O(n^3)
+#6= Ordenar los elementos de una lista de menor a mayor
+#7.Respuesta = D:Un bucle for simple que iter desde 0 hasta n-1
+
+#Parte 3 : Seleccion Multiple (Analisis de codigo)
+#8.Respuesta = b: O(n^2)
+#9.Respuesta = a:O(n)
+#10:Respuesta = O(log n)
+
+#Parte 4 : Implementacion y diseño de algoritmo hacer todo tipoo de combinaciones con los numeros numeros de un arreglo
+
+lista = [1, 2, 3, 4, 5]
+for i in lista: #O(n)
+    for j in lista: #O(n)
+        print(i, j) #O(n^2) Es una suma de una operacion de O(n) y otro O(n) al sumarse estos dos hacen una notacion de complejidad O(n)
+        
+#Es de O(n^2) porque hay dos bucles anidados que recorren la lista completa. 
+#Cada elemento de la lista se combina con otro elemento de la lista, obteniedno asi las posibles combinaciones con los numeros del arreglo.
+        
